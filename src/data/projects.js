@@ -1,0 +1,60 @@
+export default [
+	{
+		name: 'OboeSūji',
+		subTitle: 'Japanese Numbers Reciting App',
+		description:
+			'Sūji o oboeru (数字を覚える) translates to "memorize numbers" in Japanese, and this app is designed to do just that! The app presents you with numbers on the screen, challenging you to recall their readings in romaji, kanji, and hiragana. The answers are hidden at first, but you can reveal them if you\'re unsure or want to check your answer.',
+		repo: '',
+		link: '',
+		keywords: [
+			'react with typescript',
+			'tailwindcss',
+			'vite',
+			'solo',
+			'learning app',
+		],
+		image: '',
+	},
+	{
+		name: 'Meteoros',
+		subTitle: 'Meteroite Explorer (NASA)',
+		description:
+			"Meteoros is an interactive web app for space enthusiasts to explore meteor showers. It uses NASA's API to provide real-time data on over a thousand meteor showers, with filtering options to focus on specific events. The app also offers chart-based visualizations summarizing meteor strikes per year and by composition.",
+		repo: '',
+		link: '',
+		keywords: [
+			'react with typescript',
+			'scss',
+			'vite',
+			'collaboration',
+			'chingu',
+			'API',
+		],
+		image: '',
+	},
+	{
+		name: 'Restimer',
+		subTitle: 'Accurate break timings app',
+		description: '',
+		repo: '',
+		link: '',
+		keywords: [
+			'html',
+			'css',
+			'javascript',
+			'full stack',
+			'pair programming',
+			'possible SAAS',
+		],
+		image: '',
+	},
+	{
+		name: 'Milk Meter',
+		subTitle: 'Monthly milk tracking app',
+		description: '',
+		repo: '',
+		link: '',
+		keywords: ['html', 'css', 'typescript', 'PWA', 'Full Calendar'],
+		image: '',
+	},
+]

@@ -1,6 +1,67 @@
 #root {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 2rem;
-	text-align: center;
+	padding: 4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	gap: 8em;
+}
+
+/* Intro Section */
+
+.intro-section {
+	flex: 1;
+	width: 150%;
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-weight: 400;
+	}
+
+	p {
+		margin-top: 1em;
+		width: 300px;
+	}
+}
+
+.social-links {
+	margin-top: 2em;
+}
+
+.social-links img {
+	width: 25px;
+	margin-right: 1.5em;
+	filter: invert(100%) brightness(100%);
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.social-links img:hover {
+	opacity: 1;
+}
+
+.description:nth-child(3) {
+	margin: 1.5em 0;
+}
+
+.about-section {
+	padding-left: auto;
+	max-width: 500px;
+	line-height: 1.6;
+	letter-spacing: 0.3px;
 }
