@@ -1,7 +1,7 @@
 #root {
 	max-width: 1280px;
 	margin: 0 auto;
-	padding: 4rem;
+	padding: 4em;
 }
 
 h1,
@@ -14,17 +14,20 @@ p {
 	margin: 0;
 }
 
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
 main {
 	display: flex;
 	justify-content: center;
 	gap: 8em;
 }
 
-/* Intro Section */
+/* INTRO Section */
 
 .intro-section {
-	flex: 1;
-	width: 150%;
 	h1 {
 		font-size: 2.5rem;
 	}
@@ -59,9 +62,106 @@ main {
 	margin: 1.5em 0;
 }
 
+/* ABOUT section */
+
 .about-section {
 	padding-left: auto;
-	max-width: 500px;
+	max-width: 550px;
 	line-height: 1.6;
 	letter-spacing: 0.3px;
+	margin-top: 0.6em;
+}
+
+section h3 {
+	margin-bottom: 1em;
+}
+
+/* SKILL SECTION */
+
+.skill-section div {
+	max-width: 550px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.2em;
+}
+
+.skill {
+	font-size: 0.875rem;
+	font-weight: 600;
+	background-color: #fefefe;
+	color: #0f1726;
+	padding: 0.2em 1em;
+	border-radius: 6px;
+}
+
+.about-section,
+.skill-section,
+.project-section {
+	margin-bottom: 2.5em;
+}
+
+.project-section {
+	max-width: 550px;
+}
+
+.project-section .keywords {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	margin: 2em 0;
+	cursor: pointer;
+}
+
+.project h4 {
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin-top: 0.1em;
+}
+
+.project p {
+	margin: 1.5em 0;
+}
+
+.links {
+	display: flex;
+	gap: 1em;
+	margin-bottom: 1.5em;
+	text-decoration: underline;
+}
+
+.project:hover,
+.project:focus,
+.project:active {
+	opacity: 0.9;
+}
+
+.keyword {
+	background-color: inherit;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	color: inherit;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 950px) {
+	main {
+		flex-direction: column;
+		gap: 2em;
+	}
+
+	.about-section {
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 450px) {
+	#root {
+		padding: 2.5em;
+	}
 }

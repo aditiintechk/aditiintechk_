@@ -1,7 +1,7 @@
 export default function About() {
 	return (
 		<section className='about-section'>
-			<h2>About</h2>
+			<h3>ABOUT</h3>
 			<p>
 				From a young age, I discovered my passion for programming when I
 				built an <strong>elections portal</strong> for my school in 8th
