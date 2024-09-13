@@ -134,11 +134,20 @@ section h3 {
 	padding-right: 1em;
 }
 
+.project .title-container {
+	display: flex;
+	gap: 8px;
+}
+
 .project .title {
 	font-size: 1.1rem;
 	font-weight: 400;
 	margin-top: 0.1em;
 	font-weight: bold;
+}
+
+.project .arrow-icon {
+	width: 18px;
 }
 
 .project .sub-title {

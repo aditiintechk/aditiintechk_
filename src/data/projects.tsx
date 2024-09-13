@@ -1,4 +1,3 @@
-// import demo from '../../public/demo/restimer-demo.webm'
 interface Project {
 	id: number
 	name: string

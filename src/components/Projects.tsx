@@ -1,4 +1,5 @@
 import data from '../data/projects.tsx'
+import topArrow from '../../public/images/square-up-right-solid.svg'
 
 export default function Projects() {
 	const projects = data.map((project) => {
@@ -6,9 +7,11 @@ export default function Projects() {
 			<a href={project.link} target='_blank'>
 				{' '}
 				<div className='project'>
-					<h4 className='title'>
-						{project.name} <span>↗️</span>
-					</h4>
+					<div className='title-container'>
+						<h4 className='title'>{project.name}</h4>
+						<img className='arrow-icon' src={topArrow} alt='' />
+					</div>
+
 					<h4 className='sub-title'>{project.subTitle}</h4>
 					<p>{project.description}</p>
 					<div className='links'>
