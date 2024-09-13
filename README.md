@@ -1,6 +1,6 @@
 ## My Portfolio
 
-[Link](https://aditiintechk.vercel.app/)
+[aditiintechk\_](https://aditiintechk.vercel.app/)
 
 ### Built With
 
