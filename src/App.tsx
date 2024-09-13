@@ -1,7 +1,7 @@
 import './App.css'
 import Intro from './components/Intro.tsx'
 import About from './components/About.tsx'
-// import Skills from './components/Skills.tsx'
+import Skills from './components/Skills.tsx'
 import Projects from './components/Projects.tsx'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 			</section>
 			<section className='not-fixed'>
 				<About />
-				{/* <Skills /> */}
+				<Skills />
 				<Projects />
 			</section>
 		</main>

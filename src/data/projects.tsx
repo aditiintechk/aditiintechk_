@@ -1,4 +1,4 @@
-import demo from '../../public/demo/restimer-demo.webm'
+// import demo from '../../public/demo/restimer-demo.webm'
 interface Project {
 	id: number
 	name: string
@@ -20,10 +20,10 @@ const data: Project[] = [
 		repo: 'https://github.com/aditiintechk/oboe-suji',
 		link: 'https://oboesuji.netlify.app/',
 		keywords: [
+			'Solo',
 			'React with Typescript',
 			'Tailwind CSS',
 			'Vite',
-			'Solo',
 			'Learning App',
 		],
 		image: '',
@@ -31,16 +31,16 @@ const data: Project[] = [
 	{
 		id: 2,
 		name: 'Meteoros',
-		subTitle: 'Meteroite Explorer (NASA)',
+		subTitle: 'Meteroite Explorer (NASA API)',
 		description:
 			"Meteoros is an interactive web app for space enthusiasts to explore meteor showers. It uses NASA's API to provide real-time data on over a thousand meteor showers, with filtering options to focus on specific events. The app also offers chart-based visualizations summarizing meteor strikes per year and by composition.This project is an initiative by Chingu (https://www.chingu.io/)",
 		repo: 'https://github.com/chingu-voyages/v45-tier2-team-17',
 		link: 'https://meteoros.vercel.app/',
 		keywords: [
+			'Collaboration',
 			'React with Typescript',
 			'SCSS',
 			'Vite',
-			'Collaboration',
 			'Chingu Project',
 			'API',
 		],
@@ -53,15 +53,15 @@ const data: Project[] = [
 		description:
 			'Restimer is a productivity-enhancing application designed to help customer service agents effortlessly manage their work and break schedules, ensuring they stay on track with their daily responsibilities. With Restimer, you can bid farewell to the manual adjustments of phone alarms and countdown timers.',
 		repo: 'Private',
-		link: demo,
+		link: 'https://github.com/aditiintechk/restimer-demo',
 		keywords: [
+			'Pair Programming',
 			'HTML',
 			'CSS',
 			'JavaScript',
 			'Flask',
 			'My SQL',
 			'Full Stack Application',
-			'Pair Programming',
 			'possible SAAS',
 		],
 		image: '',
@@ -74,7 +74,7 @@ const data: Project[] = [
 			'Milk Meter is a simple Progressive Web App (PWA) designed to track and manage the daily milk consumption for a joint family of 10 people. The app provides an intuitive way for each nuclear family in the joint household to monitor and adjust their milk requirements. It also simplifies the monthly calculation of milk consumption to streamline payment collection for my aunt post payment to the vendor.',
 		repo: 'https://github.com/aditiintechk/milk-meter',
 		link: 'https://aditiintechk.github.io/milk-meter/',
-		keywords: ['HTML', 'CSS', 'Typescript', 'PWA', 'FullCalendar', 'solo'],
+		keywords: ['Solo', 'HTML', 'CSS', 'Typescript', 'PWA', 'FullCalendar'],
 		image: '',
 	},
 ]

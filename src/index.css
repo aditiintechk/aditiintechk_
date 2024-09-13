@@ -3,7 +3,7 @@
 	line-height: 1.5;
 	font-weight: 400;
 
-	color: #f7f1ee;
+	/* 	color: #f7f1ee;
 	background: linear-gradient(
 		to bottom,
 		#0f1726,
@@ -12,6 +12,9 @@
 		#0f1a33,
 		#101b37
 	);
+ */
+	background-color: #f7f1ee;
+	color: #1d252e;
 }
 
 body {

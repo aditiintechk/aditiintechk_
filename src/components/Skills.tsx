@@ -2,31 +2,25 @@ export default function Skills() {
 	const skills = [
 		'HTML',
 		'CSS',
-		'JAVASCRIPT',
-		'REACT',
-		'TYPESCRIPT',
-		'TAILWIND',
+		'JavaScript',
+		'React.js',
+		'TypeScript',
+		'TailwindCSS',
 		'SCSS',
-		'FIGMA',
-		'GIT',
-		'GITHUB',
-		'API',
-		'FIREBASE',
-		'MY SQL',
-		'ALGOLIA SEARCH',
-		'REACT ROUTER',
-		'PYTHON',
-		'FLASK',
-		'PWA',
-		'NEXT JS',
+		'Figma',
+		'Git (Version Control)',
+		'Github',
+		'Firebase',
+		'MYSQL',
+		'React Router 6',
+		'Python',
+		'Flask',
+		'Progressive Web App (PWA)',
+		'Next.js',
 	]
 
 	const skillSet = skills.map((skill) => {
-		return (
-			<span className='skill' key={skill}>
-				{skill}
-			</span>
-		)
+		return <span key={skill}>{skill}</span>
 	})
 	return (
 		<section className='skill-section'>
