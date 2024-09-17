@@ -1,6 +1,7 @@
 import github from '../../public/logos/github-brands-solid.svg'
 import linkedin from '../../public/logos/linkedin-in-brands-solid.svg'
 import x from '../../public/logos/x-twitter-brands-solid.svg'
+import resume from '../../public/Resume.pdf'
 
 export default function Intro() {
 	return (
@@ -11,11 +12,7 @@ export default function Intro() {
 				I develop websites to simplify & enhance the experiences of
 				those around me.
 			</p>
-			<a
-				href='../../public/Resume.pdf'
-				className='resume'
-				target='_blank'
-			>
+			<a href={resume} className='resume' target='_blank'>
 				Resume
 			</a>
 			<div className='social-links'>
