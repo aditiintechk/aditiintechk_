@@ -25,7 +25,7 @@ const data: Project[] = [
 			'Vite',
 			'Learning App',
 		],
-		image: '',
+		image: '/images/oboesuji.png',
 	},
 	{
 		id: 2,
@@ -43,7 +43,7 @@ const data: Project[] = [
 			'Chingu Project',
 			'API',
 		],
-		image: '',
+		image: '/images/meteoros.png',
 	},
 	{
 		id: 3,
@@ -63,7 +63,7 @@ const data: Project[] = [
 			'Full Stack Application',
 			'possible SAAS',
 		],
-		image: '',
+		image: '/images/restimer.png',
 	},
 	{
 		id: 4,
@@ -74,7 +74,7 @@ const data: Project[] = [
 		repo: 'https://github.com/aditiintechk/milk-meter',
 		link: 'https://aditiintechk.github.io/milk-meter/',
 		keywords: ['Solo', 'HTML', 'CSS', 'Typescript', 'PWA', 'FullCalendar'],
-		image: '',
+		image: '/images/milk-meter.png',
 	},
 ]
 

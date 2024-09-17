@@ -11,6 +11,13 @@ export default function Intro() {
 				I develop websites to simplify & enhance the experiences of
 				those around me.
 			</p>
+			<a
+				href='../../public/Resume.pdf'
+				className='resume'
+				target='_blank'
+			>
+				Resume
+			</a>
 			<div className='social-links'>
 				<a href='https://github.com/aditiintechk' target='_blank'>
 					<img src={github} alt='github logo' />

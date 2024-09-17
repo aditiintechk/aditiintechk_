@@ -14,6 +14,7 @@ export default function Projects() {
 
 					<h4 className='sub-title'>{project.subTitle}</h4>
 					<p>{project.description}</p>
+					<img src={project.image} className='display-image' />
 					<div className='links'>
 						<a
 							href={
