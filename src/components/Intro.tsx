@@ -7,7 +7,9 @@ export default function Intro() {
 	return (
 		<section className='intro-section'>
 			<h1>Aditi Deshpande</h1>
-			<h2>Front-end Developer</h2>
+			<h2>
+				{'<'}Front-end Developer{'/>'}
+			</h2>
 			<p>
 				I develop websites to simplify & enhance the experiences of
 				those around me.
